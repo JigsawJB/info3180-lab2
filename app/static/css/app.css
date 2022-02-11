@@ -28,13 +28,13 @@ header img{
     width: 300px;
     padding: 25px;
 }
-h1{
+.prof_h2{
     color: #ffffff;
     font-size: 50px;
     font-style: bold;
     text-shadow: 1px 1px 5px rgb(2, 2, 2);
 }
-h3{
+.prof_h3{
     color: #ffffff;
     font-size: 20px;
     font-style: bold;
@@ -60,16 +60,19 @@ p{
     justify-content: center;  
 }
 button{
+    border: 0;
     cursor:pointer;
     color: white;
     font-style: bold;
     background-color: #00ff62;
     font-size: 20;
-    padding: 3px;
+    padding: 6px;
     width: 150px;   
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
 }
 button:hover{
-    background-color: #00FF00 ;
+    background-color: #05e45b ;
     color: white;
     font-weight: bold;
 }
