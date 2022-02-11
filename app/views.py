@@ -31,7 +31,7 @@ def about():
 @app.route('/profile')
 def profile():
     """Render the website's profile page."""
-    return render_template('profile.html')
+    return render_template('profile.html' , joined = "Joined " + format_date_joined(datetime.datetime.now()))
 
 
 ###
